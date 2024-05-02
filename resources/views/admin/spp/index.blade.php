@@ -90,7 +90,7 @@
                          @csrf
                          <div class="mb-3">
                              <label class="form-label">Tahun</label>
-                             <input type="number"
+                             <input type="string"
                                  class="form-control @error('tahun') 
                   is-invalid
                   @enderror"
@@ -104,7 +104,7 @@
                          </div>
                          <div class="mb-3">
                              <label class="form-label">Nominal</label>
-                             <input type="number"
+                             <input type="string"
                                  class="form-control @error('nominal') 
                     is-invalid
                     @enderror"
@@ -142,7 +142,7 @@
                             @method('PUT')
                             <div class="mb-3">
                                 <label class="form-label">Tahun</label>
-                                <input type="number"
+                                <input type="string"
                                     class="form-control @error('tahun') 
                      is-invalid
                      @enderror"
@@ -157,7 +157,7 @@
                             </div>
                             <div class="mb-3">
                                 <label class="form-label">Nominal</label>
-                                <input type="number"
+                                <input type="string"
                                     class="form-control @error('nominal') 
                        is-invalid
                        @enderror"

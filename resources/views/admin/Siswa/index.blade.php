@@ -159,7 +159,7 @@
 
                          <div class="mb-3">
                              <label class="form-label">NISN</label>
-                             <input type="number"
+                             <input type="string"
                                  class="form-control @error('nisn') 
                           is-invalid
                           @enderror"
@@ -173,7 +173,7 @@
 
                          <div class="mb-3">
                              <label class="form-label">NIS</label>
-                             <input type="number"
+                             <input type="string"
                                  class="form-control @error('nisn') 
                          is-invalid
                          @enderror"
@@ -187,7 +187,7 @@
                          <div class="mb-3">
                              <label class="form-label">Kelas</label>
                              <select class="form-select"
-                                 @error('kelas_id') 
+                                 @error('kelas_id');
                             is-invalid
                             @enderror
                                  name="kelas_id"aria-label="Pilih Kelas ">
@@ -206,7 +206,7 @@
                          <div class="mb-3">
                              <label class="form-label">Alamat</label>
                              <textarea class="form-control"
-                                 @error('alamat') 
+                                 @error('alamat')
                                 is-invalid
                                 @enderror
                                  name="alamat" rows="3"></textarea>
@@ -220,7 +220,7 @@
 
                          <div class="mb-3">
                              <label class="form-label">No Hp</label>
-                             <input type="number"
+                             <input type="string"
                                  class="form-control @error('no_hp') 
                              is-invalid
                              @enderror"
@@ -328,7 +328,7 @@
 
                              <div class="mb-3">
                                  <label class="form-label">NISN</label>
-                                 <input type="number"
+                                 <input type="string"
                                      class="form-control @error('nisn') 
                              is-invalid
                              @enderror"
@@ -343,7 +343,7 @@
 
                              <div class="mb-3">
                                  <label class="form-label">NIS</label>
-                                 <input type="number"
+                                 <input type="string"
                                      class="form-control @error('nisn') 
                             is-invalid
                             @enderror"
@@ -393,7 +393,7 @@
 
                              <div class="mb-3">
                                  <label class="form-label">No Hp</label>
-                                 <input type="number"
+                                 <input type="string"
                                      class="form-control @error('no_hp') 
                                 is-invalid
                                 @enderror"
